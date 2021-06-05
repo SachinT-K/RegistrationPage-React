@@ -3,10 +3,11 @@ import Form from "./Form";
 
 var userIsRegistered = false;
 
+
 function App() {
   return (
     <div className="container">
-      <Form />
+      <Form isRegistered = {userIsRegistered}/>
     </div>
   );
 }
